@@ -40,5 +40,19 @@ public class FizzBuzzTest {
 		
 		assertEquals("fizz", response);
 	}
+	
+	@Test
+	public void shouldSayBuzzForTen() {
+		String response = underTest.say(10);
+		
+		assertEquals("buzz", response);
+	}
+	
+	@Test
+	public void shouldSayFizzBuzzForFifteen() {
+		String response = underTest.say(10);
+		
+		assertEquals("buzz", response);
+	}
 
 }
