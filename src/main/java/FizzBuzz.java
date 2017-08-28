@@ -2,6 +2,9 @@
 public class FizzBuzz {
 	
 	public String say(int inputNumber) {
-		return "1";
+		if (inputNumber == 3) {
+			return "fizz";
+		}
+		return "" + inputNumber;
 	}
 }
