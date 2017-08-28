@@ -26,5 +26,19 @@ public class FizzBuzzTest {
 		
 		assertEquals("fizz", response);
 	}
+	
+	@Test
+	public void shouldSayBuzz() {
+		String response = underTest.say(5);
+		
+		assertEquals("buzz", response);
+	}
+	
+	@Test
+	public void shouldSayFizzForSix() {
+		String response = underTest.say(6);
+		
+		assertEquals("fizz", response);
+	}
 
 }
